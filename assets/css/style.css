@@ -1,13 +1,63 @@
-.dalany-color {
-  background: rgb(110, 3, 211);
-}
-.dalany-color2 {
-  background: rgb(84, 2, 161);
-}
-.dalany-color-white {
-  background: rgb(243, 243, 243);
+:root {
+  --color-principal-dalany: #241652;
+  --color-principal-dalany2: #241652f3;
+  --color-text-dalany1: rgba(221, 217, 217, 0.959);
+  --bg-dalany-white: rgba(221, 217, 217, 0.959);
 }
 
+.dalany-color {
+  background: var(--color-principal-dalany);
+}
+.dalany-color2 {
+  background: var(--color-principal-dalany2);
+}
+.dalany-color-white {
+  background: var(--bg-dalany-white);
+}
+.bg-dalany-white {
+  background-color: var(--bg-dalany-white);
+  color: var(--color-text-dalany1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 .transparent {
-  background-color: rgba(110, 3, 211, 0.418);
+  background-color: #241652b6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.text-dalany {
+  color: var(--color-principal-dalany);
+}
+.text-dalany2 {
+  color: var(--color-text-dalany1);
+}
+.btn-dalany {
+  background-color: var(--color-principal-dalany);
+}
+.btn-dalany:hover {
+  background-color: var(--color-principal-dalany2);
+}
+
+/* separadores */
+
+.separador-dalany1 {
+  margin: 0;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+/*  end separadores */
+.img-team {
+  height: 500px;
+  object-fit: cover;
+}
+.team-h {
+  transition: transform 0.3s; /* Añade una transición suave */
+}
+.team-h:hover {
+  filter: blur(3px);
+  transform: scale(0.999);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.726);
 }
