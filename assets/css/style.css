@@ -1,15 +1,22 @@
 :root {
   --color-principal-dalany: #241652;
   --color-principal-dalany2: #241652f3;
+  --color-principal-dalany3: #241652e5;
   --color-text-dalany1: rgba(221, 217, 217, 0.959);
   --bg-dalany-white: rgba(221, 217, 217, 0.959);
 }
-
+#icono {
+  width: 50px;
+  height: 50px;
+}
 .dalany-color {
   background: var(--color-principal-dalany);
 }
 .dalany-color2 {
   background: var(--color-principal-dalany2);
+}
+.dalany-color-3 {
+  background-color: var(--color-principal-dalany3);
 }
 .dalany-color-white {
   background: var(--bg-dalany-white);
