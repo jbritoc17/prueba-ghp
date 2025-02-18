@@ -34,9 +34,23 @@
 .text-dalany {
   color: var(--color-principal-dalany);
 }
-.text-dalany2 {
+.text-dalany3 {
   color: var(--color-text-dalany1);
 }
+.text-dalany2 {
+  color: var(--color-text-dalany1);
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.text-dalany2-scrollHover {
+  color: var(--color-text-dalany1);
+}
+.text-dalany2:hover,
+.text-dalany2-scrollHover:hover {
+  color: rgb(229, 255, 0);
+}
+
 .btn-dalany {
   background-color: var(--color-principal-dalany);
 }
