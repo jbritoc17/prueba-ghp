@@ -17,20 +17,22 @@
 </head>
 
 <body>
-    <header>
+    <header class="">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top ">
-            <div class=" container-fluid ">
-                <a class="navbar-brand text-dalany2 " href="#"><img id="icono" class="w-25 m-0 p-0 "
-                        src="./assets/imgs/icono2.ico" alt="">Dalany Foundation
+        <nav class="navbar navbar-expand-lg fixed-top aria-labels">
+            <div class=" container-fluid  ">
+                <a class="navbar-brand text-dalany2 " href="#">
+                    <img id="icono" class="w-25 m-0 p-0 "
+                        src="./assets/imgs/icono2.ico" alt="" loading="lazy">
+                        Dalany Foundation
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
 
                 <div class=" collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
                         <li class="nav-item  ">
                             <a class="nav-link text-dalany2 " aria-current="page" href="#">Home</a>
                         </li>
@@ -42,17 +44,17 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu bg-dalany-white">
+                            <ul class="dropdown-menu ">
                                 <li><a class="dropdown-item text-dalany " href="#">Action</a></li>
                                 <li><a class="dropdown-item text-dalany " href="#">Another action</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item text-dalany2 " href="#">Something else here</a></li>
+                                <li><a class="dropdown-item text-dalany " href="#">Something else here</a></li>
                             </ul>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-dalany2 " href="#" aria-disabled="true">Contact us</a>
+                            <a class="nav-link text-dalany2 " href="#" >Contact us</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -69,18 +71,18 @@
     <section class="z-0 ">
         <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/imgs/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item object-fit-cover active">
+                    <img src="./assets/imgs/img1.jpg" class="d-block w-100 img-fluid" alt="..." loading="lazy">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="./assets/imgs/img4.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/imgs/img4.jpg" class="d-block w-100" alt="..." loading="lazy">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/imgs/img5.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/imgs/img5.jpg" class="d-block w-100 img-fluid" alt="..." loading="lazy">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/imgs/img6.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/imgs/img6.jpg" class="d-block w-100 img-fluid" alt="..." loading="lazy">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -99,7 +101,7 @@
         <h2 class="text-center mb-5">Spotlight Stories</h2>
         <div class=" container card-group w-100">
             <div class="card m-3 border-0">
-                <img src="./assets/imgs/persons/person1.jpg" class="card-img img-fluid object-fit-cover" alt="...">
+                <img src="./assets/imgs/persons/person1.jpg" class="card-img img-fluid object-fit-cover" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, a magni!</h5>
                     <p class="card-text text-capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
@@ -110,7 +112,7 @@
                 </div>
             </div>
             <div class="card m-3 border-0">
-                <img src="./assets/imgs/persons/person2.jpg" class="card-img-top img-fluid object-fit" alt="...">
+                <img src="./assets/imgs/persons/person2.jpg" class="card-img-top img-fluid object-fit" alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, quae
                         et.</h5>
@@ -123,7 +125,7 @@
                 </div>
             </div>
             <div class="card m-3 border-0">
-                <img src="./assets/imgs/persons/person4.jpg" class="card-img-top img-fluid object-fit " alt="...">
+                <img src="./assets/imgs/persons/person4.jpg" class="card-img-top img-fluid object-fit " alt="..." loading="lazy">
                 <div class="card-body">
                     <h5 class="card-title text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Incidunt,
@@ -138,12 +140,14 @@
                 </div>
             </div>
         </div>
+
         <!-- section two -->
-        <section class="row row-cols-1 row-cols-md-1 ">
+        <section class="row row-cols-1 row-cols-md-1">
             <section class="col dalany-color-3 ">
-                <div class="card bg-transparent d-flex  flex-row align-content-center border-0">
+
+                <div class="card bg-transparent d-flex flex-column flex-md-row  flex-row align-content-md-center   align-content-lg-center align-content-xl-between border-0">
                     <div>
-                        <img src="https://picsum.photos/700/700" class=" img-striking" alt="" />
+                        <img src="https://picsum.photos/600/600?random=1" class=" img-striking img-fluid" alt="" loading="lazy">
                     </div>
                     <div class="d-flex flex-column align-content-center justify-content-center p-5 text-dalany3">
                         <h2>Magna primis lobortis<br />
@@ -160,9 +164,9 @@
 
 
             <section class="col dalany-color ">
-                <div class="card bg-transparent d-flex flex-row-reverse border-0">
+                <div class="card bg-transparent d-flex flex-column flex-md-row  flex-row flex-md-row-reverse align-content-center border-0">
                     <div>
-                        <img src="https://picsum.photos/600/600" class=" img-striking" alt="" />
+                        <img src="https://picsum.photos/600/600?random=1" class=" img-striking img-fluid" alt="" loading="lazy">
                     </div>
                     <div class="d-flex flex-column align-content-center justify-content-center p-5 text-dalany3">
                         <h2>Magna primis lobortis<br />
@@ -175,12 +179,13 @@
                     </div>
                 </div>
             </section>
+
             <section class="col dalany-color-3 ">
-                <div class="card bg-transparent d-flex flex-row border-0">
+                <div class="card bg-transparent d-flex flex-column flex-md-row flex-row align-items-center border-0">
                     <div>
-                        <img src="https://picsum.photos/600/700" class=" img-striking" alt="" />
+                        <img src="https://picsum.photos/600/600?random=3" class=" img-striking img-fluid" alt="" loading="lazy">
                     </div>
-                    <div class="d-flex flex-column align-content-center justify-content-center p-5 text-dalany3">
+                    <div class="d-flex flex-column align-content-center justify-content-center p-5 text-dalany3 ">
                         <h2>Magna primis lobortis<br />
                             sed ullamcorper
                         </h2>
@@ -210,7 +215,7 @@
                 <div class="row ">
                     <div class="col-md-4 ">
                         <div class="card text-white mb-3">
-                            <img class="img-team" src="./assets/imgs/team/team-person1.jpg" alt="">
+                            <img class="img-team" src="./assets/imgs/team/team-person1.jpg" alt="" loading="lazy">
                             <div class="card-img-overlay img-fluid d-flex flex-column justify-content-between">
                                 <h5 class="card-title">John Doe</h5>
                                 <p class="card-text text-dalany text-shadow">Lorem ipsum dolor sit amet, consectetur
@@ -225,7 +230,7 @@
 
                     <div class="col-md-4">
                         <div class="card text-white  mb-3">
-                            <img class="img-team" src="./assets/imgs/team/team-person4.jpg" alt="">
+                            <img class="img-team" src="./assets/imgs/team/team-person4.jpg" alt="" loading="lazy">
                             <div class="card-img-overlay img-fluid d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Jane Doe</h5>
                                 <p class="card-text text-white text-shadow">Lorem ipsum dolor sit amet, consectetur
@@ -239,7 +244,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card text-white  ">
-                            <img class="img-team" src="./assets/imgs/team/team-person3.jpg" alt="" srcset="">
+                            <img class="img-team" src="./assets/imgs/team/team-person3.jpg" alt="" srcset="" loading="lazy">
                             <div class="card-img-overlay img-fluid d-flex flex-column justify-content-between">
                                 <h5 class="card-title">Michel Doe</h5>
                                 <p class="card-text text-dalany text-shadow">Lorem ipsum dolor sit amet, consectetur

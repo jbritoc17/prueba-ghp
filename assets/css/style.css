@@ -82,3 +82,11 @@
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.726);
 }
+
+.navbar-toggler {
+  filter: invert(75%) sepia(100%) saturate(500%) hue-rotate(233deg);
+}
+
+.navbar-toggler-icon {
+  filter: invert(75%) sepia(100%) saturate(500%) hue-rotate(80deg);
+}
