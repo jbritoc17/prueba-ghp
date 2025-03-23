@@ -61,7 +61,7 @@
 /* separadores */
 
 .separador-dalany1 {
-  margin: 0;
+  
   position: relative;
   transform: rotate(180deg);
 }
